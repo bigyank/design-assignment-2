@@ -297,3 +297,22 @@ a:hover {
   cursor: pointer;
   font-weight: bold;
 }
+
+/* user-info-sm */
+.user-info-sm ul {
+  text-align: center;
+}
+
+.user-info-sm ul li {
+  display: inline-block;
+  padding: 1em;
+}
+
+.user-info-sm ul li:before {
+  content: "|";
+  padding: 7px;
+}
+
+.user-info-sm ul li:first-child:before {
+  content: "";
+}

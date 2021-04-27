@@ -11,7 +11,7 @@
   .entries-item {
     display: block;
   }
-  .hidden {
+  .hidden-sm {
     display: none;
   }
 
@@ -19,13 +19,13 @@
     text-align: center;
   }
 
-  .left-navbar {
-    margin-top: 2em;
-  }
-
   .search-form {
     background-color: #7dd9e8;
     padding-bottom: 1em;
+  }
+
+  .top-header {
+    height: 110px;
   }
 }
 
@@ -170,5 +170,10 @@
   .header-right,
   .header-left .search-wraper {
     float: right;
+  }
+
+  /* hidden */
+  .hidden-lg {
+    display: none;
   }
 }
