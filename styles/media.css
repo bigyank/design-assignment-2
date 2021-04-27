@@ -30,6 +30,28 @@
 }
 
 @media screen and (min-width: 769px) {
+  .left-content {
+    width: 50%;
+  }
+
+  .right-content {
+    position: absolute;
+    width: 44%;
+    top: 19.8em;
+    right: 2em;
+    margin-left: 1em;
+  }
+
+  .left-content {
+    margin: 0 0 1em 1em;
+  }
+
+  .hidden-md {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
   .container {
     width: 940px;
     margin: auto;
@@ -110,12 +132,15 @@
   }
 
   .right-content {
+    position: static;
     float: right;
+    width: auto;
   }
 
   .left-content,
   .right-content {
     height: 650px;
+    margin: 0;
   }
 
   .aside ul li a span.recent-list {
@@ -170,6 +195,10 @@
   .header-right,
   .header-left .search-wraper {
     float: right;
+  }
+
+  .header-right {
+    display: block;
   }
 
   /* hidden */
