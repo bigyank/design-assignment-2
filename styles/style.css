@@ -100,11 +100,13 @@ a:hover {
 .left-navbar {
   font-size: 13px;
   padding: 12px 8px;
+  text-align: center;
 }
 
 .right-navbar {
   font-size: 12px;
-  padding: 12px 0;
+  padding: 12px 0px;
+  text-align: center;
 }
 
 .navbar-icon {
@@ -245,7 +247,7 @@ a:hover {
 }
 
 .article {
-  padding: 15px 0px;
+  padding: 10px 0px;
   border-bottom: 2px solid #d8d8d8;
 }
 

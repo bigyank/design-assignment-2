@@ -11,6 +11,22 @@
   .entries-item {
     display: block;
   }
+  .hidden {
+    display: none;
+  }
+
+  .search-wraper {
+    text-align: center;
+  }
+
+  .left-navbar {
+    margin-top: 2em;
+  }
+
+  .search-form {
+    background-color: #7dd9e8;
+    padding-bottom: 1em;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -133,5 +149,26 @@
 
   .footer .footer-info {
     float: left;
+  }
+
+  /* nav begin */
+  .left-navbar {
+    float: left;
+  }
+
+  .right-navbar {
+    float: right;
+  }
+
+  /* header */
+
+  .header-left,
+  .header-left .logo {
+    float: left;
+  }
+
+  .header-right,
+  .header-left .search-wraper {
+    float: right;
   }
 }
