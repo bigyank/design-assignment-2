@@ -80,7 +80,7 @@ a:hover {
   border-right: 1px solid black;
 }
 
-.user-menu-list:last-child {
+.last-list {
   border-right: none;
   padding-right: 0;
 }
@@ -106,10 +106,6 @@ a:hover {
   margin-right: 15px;
 }
 
-.navbar-wrapper .navbar ul li:last-child {
-  margin-right: 0;
-}
-
 .left-navbar {
   font-size: 13px;
   padding: 12px 8px;
@@ -131,6 +127,10 @@ a:hover {
 .request a {
   display: inline-block;
   color: #ababab;
+}
+
+.navbar-wrapper .navbar ul .reset-rmargin {
+  margin-right: 0;
 }
 
 /* navbar end */

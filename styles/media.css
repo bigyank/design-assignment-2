@@ -198,4 +198,9 @@
   .hidden-lg {
     display: none;
   }
+
+  /* header */
+  .top-header {
+    height: 68px;
+  }
 }
