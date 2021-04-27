@@ -11,25 +11,18 @@
   .entries-item {
     display: block;
   }
+
   .hidden-sm {
     display: none;
-  }
-
-  .search-wraper {
-    text-align: center;
-  }
-
-  .search-form {
-    background-color: #7dd9e8;
-    padding-bottom: 1em;
-  }
-
-  .top-header {
-    height: 110px;
   }
 }
 
 @media screen and (min-width: 769px) {
+  .left-content,
+  .right-content {
+    height: 400px;
+  }
+
   .left-content {
     width: 50%;
   }
@@ -37,7 +30,7 @@
   .right-content {
     position: absolute;
     width: 44%;
-    top: 19.8em;
+    top: 23.2em;
     right: 2em;
     margin-left: 1em;
   }

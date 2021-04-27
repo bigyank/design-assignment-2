@@ -85,6 +85,19 @@ a:hover {
   padding-right: 0;
 }
 
+.search-wraper {
+  text-align: center;
+}
+
+.search-form {
+  background-color: #7dd9e8;
+  padding-bottom: 1em;
+}
+
+.top-header {
+  height: 110px;
+}
+
 /* Header End */
 
 /* navbar begin */
